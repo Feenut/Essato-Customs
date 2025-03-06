@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Essato Customs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Essato <span>Customs</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="section" style="background-color: var(--primary-color); color: var(--light-color); padding: 8rem 0 4rem;">
+        <div class="container" style="text-align: center;">
+            <h1 style="color: var(--light-color);">Contact Us</h1>
+            <p style="max-width: 700px; margin: 0 auto;">We look forward to discussing your tailoring needs and providing exceptional service.</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>We welcome your inquiries and look forward to serving your alteration needs. Contact us to schedule a consultation or to learn more about our services.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Our Atelier</h4>
+                                <p>123 Luxury Lane, Suite 100<br>New York, NY 10001</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>info@essatocustoms.com</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
+                                Saturday: 10:00 AM - 4:00 PM<br>
+                                Sunday: Closed</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div style="margin-top: 2rem;">
+                        <h3>Follow Us</h3>
+                        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                            <a href="#" style="color: var(--primary-color); font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 1.5rem;"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" style="color: var(--primary-color); font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <div class="luxury-card" style="height: 100%;">
+                        <h3>Schedule a Consultation</h3>
+                        <p style="margin-bottom: 2rem;">Complete the form below, and one of our expert tailors will contact you to arrange your personal consultation.</p>
+                        
+                        <form action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">Service of Interest</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a Service</option>
+                                    <option value="suit">Suit Alterations</option>
+                                    <option value="dress">Dress Alterations</option>
+                                    <option value="wedding">Wedding Attire</option>
+                                    <option value="custom">Custom Tailoring</option>
+                                    <option value="leather">Leather & Suede</option>
+                                    <option value="other">Other Services</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Tell Us About Your Project</label>
+                                <textarea id="message" name="message" rows="5"></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="preferred_date">Preferred Appointment Date</label>
+                                <input type="date" id="preferred_date" name="preferred_date">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="preferred_time">Preferred Time</label>
+                                <select id="preferred_time" name="preferred_time">
+                                    <option value="">Select a Time</option>
+                                    <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                    <option value="afternoon">Afternoon (12:00 PM - 3:00 PM)</option>
+                                    <option value="evening">Evening (3:00 PM - 6:00 PM)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" name="newsletter"> Subscribe to our newsletter for updates and exclusive offers
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-gold" style="width: 100%;">Submit Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="padding-top: 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Location</h2>
+                <p class="section-description">Visit our atelier in the heart of the city.</p>
+            </div>
+            <div style="width: 100%; height: 400px; background-color: #eee; position: relative; overflow: hidden;">
+                <!-- Placeholder for map - in a real implementation, you would include a Google Maps embed or similar -->
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 3rem; color: var(--primary-color); margin-bottom: 1rem;"></i>
+                    <p>123 Luxury Lane, Suite 100<br>New York, NY 10001</p>
+                    <p style="margin-top: 1rem;"><small>Google Maps would be embedded here in the final implementation</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: var(--accent-color);">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-description">Answers to common questions about our consultation process.</p>
+            </div>
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-color);">What should I bring to my consultation?</h3>
+                    <p>Please bring the garments you wish to have altered, along with any shoes or undergarments you plan to wear with them. This helps us ensure the perfect fit.</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-color);">How long does a consultation typically take?</h3>
+                    <p>Initial consultations generally last 30-45 minutes, depending on the number of garments and complexity of the alterations needed.</p>
+                </div>
+                <div style="margin-bottom: 2rem;">
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-color);">Is there a fee for consultations?</h3>
+                    <p>Initial consultations are complimentary. If you proceed with alterations, a 50% deposit is required to begin work.</p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-color);">Do you offer virtual consultations?</h3>
+                    <p>While we prefer in-person consultations for the most accurate assessments, we do offer virtual pre-consultations for clients with special circumstances. Please contact us to discuss your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background-color: var(--primary-color); color: var(--light-color);">
+        <div class="container" style="text-align: center;">
+            <h2 style="color: var(--light-color);">Ready to Experience Exceptional Tailoring?</h2>
+            <p style="margin-bottom: 2rem;">We look forward to welcoming you to our atelier and providing the attentive service you deserve.</p>
+            <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <a href="tel:5551234567" class="btn btn-gold"><i class="fas fa-phone" style="margin-right: 0.5rem;"></i> Call Us</a>
+                <a href="mailto:info@essatocustoms.com" class="btn btn-outline" style="color: var(--light-color); border-color: var(--light-color);"><i class="fas fa-envelope" style="margin-right: 0.5rem;"></i> Email Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Essato Customs</h4>
+                    <p>Elevating your wardrobe through the art of precise alteration and bespoke tailoring.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Our Expertise</h4>
+                    <ul class="footer-links">
+                        <li><a href="pricing.html">Suit Alterations</a></li>
+                        <li><a href="pricing.html">Evening Wear</a></li>
+                        <li><a href="pricing.html">Custom Tailoring</a></li>
+                        <li><a href="pricing.html">Wedding Attire</a></li>
+                        <li><a href="pricing.html">Leather & Suede</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Luxury Lane, Suite 100</li>
+                        <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@essatocustoms.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Essato Customs. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a nav link
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html> 
